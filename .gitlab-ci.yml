@@ -1,0 +1,9 @@
+image: golang:1.14.2-buster
+
+variables:
+    GO111MODULE: "on"
+
+test:
+    script:
+        - go vet ./...
+        - go test -race -cover ./...
