@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diamondburned/oxy/testutils"
 	gorillawebsocket "github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/testutils"
 	"golang.org/x/net/websocket"
 )
 

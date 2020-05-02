@@ -1,6 +1,8 @@
-module github.com/vulcand/oxy
+module github.com/diamondburned/oxy
 
 go 1.13
+
+replace gopkg.in/ahmetb/go-linq.v3 => github.com/ahmetb/go-linq/v3 v3.1.0
 
 require (
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd

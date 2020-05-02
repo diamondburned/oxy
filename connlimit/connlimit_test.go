@@ -6,10 +6,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/diamondburned/oxy/testutils"
+	"github.com/diamondburned/oxy/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/oxy/utils"
 )
 
 // We've hit the limit and were able to proceed once the request has completed

@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diamondburned/oxy/memmetrics"
+	"github.com/diamondburned/oxy/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/memmetrics"
-	"github.com/vulcand/oxy/testutils"
 )
 
 const triggerNetRatio = `NetworkErrorRatio() > 0.5`

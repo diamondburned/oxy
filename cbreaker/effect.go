@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/diamondburned/oxy/utils"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/oxy/utils"
 )
 
 // SideEffect a side effect

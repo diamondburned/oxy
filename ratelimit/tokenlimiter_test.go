@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diamondburned/oxy/testutils"
+	"github.com/diamondburned/oxy/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/testutils"
-	"github.com/vulcand/oxy/utils"
 )
 
 func TestRateSetAdd(t *testing.T) {

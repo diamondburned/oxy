@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/diamondburned/oxy/utils"
 	"github.com/mailgun/holster"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/oxy/utils"
 )
 
 // DefaultCapacity default capacity

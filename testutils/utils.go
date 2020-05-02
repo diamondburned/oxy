@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/diamondburned/oxy/utils"
 	"github.com/mailgun/holster"
-	"github.com/vulcand/oxy/utils"
 )
 
 // NewHandler creates a new Server

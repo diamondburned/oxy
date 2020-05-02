@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diamondburned/oxy/forward"
+	"github.com/diamondburned/oxy/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/forward"
-	"github.com/vulcand/oxy/testutils"
 )
 
 func TestBasic(t *testing.T) {

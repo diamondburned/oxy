@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/diamondburned/oxy/utils"
 	"github.com/gorilla/websocket"
 	log "github.com/sirupsen/logrus"
-	"github.com/vulcand/oxy/utils"
 )
 
 // OxyLogger interface of the internal

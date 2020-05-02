@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diamondburned/oxy/testutils"
 	"github.com/mailgun/holster"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vulcand/oxy/testutils"
 )
 
 func TestDefaults(t *testing.T) {
